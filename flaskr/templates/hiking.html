@@ -1,1 +1,95 @@
-<h1>Hiking</h1>
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Taos, New Mexico - the most interesting spot in the Land of Enchantment</title>
+		<meta name="description" content="Three cultures come together magically in this high-desert wonderland.">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+		<body>
+
+			<div id="banner">
+				<img src="{{ url_for('static', filename='rsz_images.jpg') }}">
+				<h1>Pick your terrain. Pick your difficulty level<br>Taos has hikes for everyone.</h1>
+			</div>
+			
+			<div id="spacer">
+				<img src="{{ url_for('static', filename='rsz_images.jpg') }}">
+				<h1>Pick your terrain. Pick your difficulty level<br>Taos has hikes for everyone.</h1>
+			</div>
+			
+			<div id="main">
+				
+				<div id="nav">
+					<ul>
+						<li class="changeBackground"><a href="{{ url_for('home') }}">Home</a></li>
+						<li class="changeBackground"><a href="{{ url_for('hiking') }}">Hiking</a></li>
+						<li class="changeBackground"><a href="{{ url_for('skiing') }}">Skiing</a></li>
+					</ul>
+				</div>
+
+				
+				<div id="content">
+
+					<h2>You won't find more hiking diversity anywhere.</h2>
+
+					<img src="{{ url_for('static', filename='rsz_taos_hiking.jpg') }}">
+					
+					<p>View online maps (trails.com) and trail ratings, and stop by the Carson National Forest Office and Rio Grande Visitor Center to get oriented.</p>
+                    
+                    <p>By all means, ask the experienced folks at Taos Mountain Outfitters on the Plaza and Mudd N Flood on Bent Street for recommendations and advice. In Taos Ski Valley it's the people at Northside. Locals know!</p>
+                    
+                    <p>While you're there, ask the folks at Mudd N Flood for rock climbing spots and safety precautions. The Pilar area offers bouldering all year. Mountain Skills New Mexico rock climbing guides and instructors are available in Taos.</p>
+
+				</div>
+			
+			
+				
+				<div id="sidebar">
+
+					<h2>Hikes</h2>
+
+					<h3>Yerba Canyon and Manzanita Canyon</h3>
+					<p>EAZY TO MODERATE<br>
+					This is a great loop trail up through lush alpine scenery to Lobo Peak</p>
+
+					<h3>Williams Lake and Wheeler Peak</h3>
+					<p>MODERATE to STRENUOUS<br>
+					A gorgeous hike in the Wheeler Peak Wilderness Area! Even though there is
+				    elevation gain up to the lake, the trail is relatively easy.</p>
+
+				    <h3>Columbine-Hondo Wilderness Study Area</h3>
+					<p>MODERATE to STRENUOUS<br>
+					Located between the Latir Peak and Wheeler Peak Wilderness, the Columbine-Hondo
+				    Wilderness Study Area offers an extensive and well-developed system.</p>
+
+					
+				</div>
+				
+
+			</div>
+
+			
+
+				<div id="footer">
+				          <ul>
+				             <li><a href="https://www.google.com/maps/d/viewer?msa=0&mid=zEh51dOo9RKA.kkUGFqtDLTSY" target="_blank">Map</a></li>
+				             <li><a href="http://booktaos.com/" target="_blank">Hotel reservations</a></li>
+				             <li><a href="http://www.skitaos.org/weather" target="_blank">Ski conditions</a></li>
+				             <li><a href="http://www.realtor.com/realestateandhomes-search/Taos_NM" target="_blank">Real estate</a></li>
+				             <li><a href="http://www.city-data.com/city/Taos-New-Mexico.html" target="_blank">Statistics</a></li>
+				             <li><a href="http://www.weather.com/weather/tenday/l/Taos+NM+87571:4:US" target="_blank">Weather</a></li>                                             
+				          </ul>
+				</div>
+			
+
+		    
+			</div>
+			
+			
+
+
+
+		</body>
+</html>

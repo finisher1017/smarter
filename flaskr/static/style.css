@@ -76,6 +76,11 @@ div#content {
 	float: left;
 }
 
+div#content img {
+	float: left;
+	margin-right: 1em;
+}
+
 
 div#sidebar {
 	width: 29%;
